@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel": "^2.0.0-beta.1",
+    "pg": "^8.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "name": "react-unitable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/krystian-mw/react-unitable.git",
+  "author": "krystian-mw <krystian@mwebdev.co.uk>",
+  "license": "MIT"
+}
