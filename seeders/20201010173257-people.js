@@ -30,10 +30,10 @@ module.exports = {
     });
 
     files = null;
-    await queryInterface.bulkInsert("user", [...out], {});
+    await queryInterface.bulkInsert("people", [...out], {});
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkDelete("user", null, {});
+    await queryInterface.bulkDelete("people", null, {});
   },
 };
